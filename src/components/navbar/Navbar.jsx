@@ -37,7 +37,7 @@ const Navbar = () => {
               className="avatar"
             />
           </div>
-            <h3 className="user">Yala</h3>
+            <h3 className="user">Harman</h3>
         </div>
       </div>
     </div>

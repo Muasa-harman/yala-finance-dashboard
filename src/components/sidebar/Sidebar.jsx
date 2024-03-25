@@ -18,21 +18,25 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="top">
         <Link to="/dash" style={{ textDecoration: "none" }}>
-          <span className="logo">Yala Finance <br/> System</span>
+          <span className="logo">J-MITI <br/> Dashboard</span>
         </Link>
       </div>
       <hr />
       <div className="center">
         <ul>
-          <p className="title">MAIN</p>
+          <p className="title">GENERAL</p>
           <Link to="/dash" style={{ textDecoration: "none" }}>
           <li>
             <DashboardIcon className="icon" />
             <span>Dashboard</span>
           </li>
+          <li>
+            <DashboardIcon className="icon" />
+            <span>Leadboard</span>
+          </li>
 
           </Link>
-          <p className="title">LISTS</p>
+          <p className="title">RECORDS</p>
           <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <PersonOutlineIcon className="icon" />
@@ -42,32 +46,39 @@ const Sidebar = () => {
           <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <PersonOutlineIcon className="icon" />
-              <span>Employees</span>
+              <span>Admin</span>
             </li>
           </Link> 
-          <p className="title">USEFUL</p>
+          <p className="title">RECORDS</p>
              <Link to="/income" style={{ textDecoration: "none" }}>
           <li>
             <InsertChartIcon className="icon" />
-            <span>Income</span>
+            <span>Reports</span>
           </li>
 
              </Link>
               <Link to="/expense" style={{ textDecoration: "none" }}>
           <li>
             <NotificationsNoneIcon className="icon" />
-            <span>Expense</span>
+            <span>Tree Bank</span>
           </li>
 
               </Link>
                <Link to="/users" style={{ textDecoration: "none" }}>
           <li>
             <NotificationsNoneIcon className="icon" />
-            <span>Statemtnts</span>
+            <span>Organisation</span>
           </li>
 
                </Link>
-          <p className="title">SERVICE</p>
+               <Link to="/users" style={{ textDecoration: "none" }}>
+          <li>
+            <NotificationsNoneIcon className="icon" />
+            <span>Individual</span>
+          </li>
+
+               </Link>
+          <p className="title">USER SETTTINGS</p>
           <li>
             <SettingsSystemDaydreamOutlinedIcon className="icon" />
             <span>System Health</span>

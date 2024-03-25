@@ -4,6 +4,7 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
+import Company from "../../Company/Company"
 
 const Featured = () => {
   return (
@@ -13,29 +14,24 @@ const Featured = () => {
         <MoreVertIcon fontSize="small" />
       </div>
       <div className="bottom">
-        <div className="featuredChart">
-          <CircularProgressbar value={70} text={"70%"} strokeWidth={5} />
+      <div className="counties">
+         <div className='title'>
+        <h4 className='lead'>County by Rank</h4>
+        <span style={{color:"green",marginTop:"15px" }}>View More</span>
+        <div className="">
+        <Company company={'Embu'} total={200000}/>
+        <Company company={'Nairobi'} total={200000}/>
+        <Company company={'Mombasa'} total={200000}/>
+        <Company company={'Kisumu'} total={200000}/>
+        <Company company={'Kajiado'} total={200000}/>
+        <Company company={'Machacos'} total={200000}/>
+        <Company company={'Makueni'} total={200000}/>
+        <Company company={'Kericho'} total={200000}/>
+        <Company company={'Trans-Nzoia'} total={200000}/>
         </div>
-        <p className="title">Total revenue made this week</p>
-        <p className="amount">Kshs2,000,000</p>
-        <p className="desc">
-          Previous transactions processing. Last payments may not be included.
-        </p>
-        <div className="summary">
-          <div className="item">
-            <div className="itemTitle">Target</div>
-            <div className="itemResult negative">
-              <KeyboardArrowDownIcon fontSize="small"/>
-              <div className="resultAmount">$12.4k</div>
-            </div>
-          </div>
-          <div className="item">
-            <div className="itemTitle">Last Week</div>
-            <div className="itemResult positive">
-              <KeyboardArrowUpOutlinedIcon fontSize="small"/>
-              <div className="resultAmount">$12.4k</div>
-            </div>
-          </div>
+      </div>
+         </div>
+        </div>
           <div className="item">
             <div className="itemTitle">Last Month</div>
             <div className="itemResult positive">
@@ -44,8 +40,6 @@ const Featured = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
   );
 };
 
