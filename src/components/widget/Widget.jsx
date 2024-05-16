@@ -92,7 +92,7 @@ const Widget = ({ type }) => {
         <div className="percentage positive">
           <KeyboardArrowUpIcon />
           {diff} %
-          <CircularProgressbar value={70} text={"70%"} strokeWidth={5} color="rgb(134, 221, 134)" />
+          <CircularProgressbar value={70} text={"70%"} strokeWidth={2} color="rgb(134, 221, 134)" className="custom-progressbar" />
         </div>
         {data.icon}
       </div>
