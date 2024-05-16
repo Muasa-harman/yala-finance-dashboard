@@ -7,7 +7,7 @@ const Table = () => {
 
   const columns = [
     {
-      name:'Item',
+      name:'Organisation',
       selector: row =>row.item,
     
     },
@@ -17,12 +17,12 @@ const Table = () => {
       sortable:true
     },
     {
-      name:'Transaction date',
+      name:'Trees plant date',
       selector: row =>row.date,
       sortable:true
     },
     {
-      name: 'Amount',
+      name: 'Number',
       selector: row =>row.amount,
     },
     {
@@ -40,150 +40,158 @@ const Table = () => {
 
   const data = [
     {
-      item: 'kiro february',
-      category: 'KIRO',
+      item: 'kenya Defence Forces',
+      category: 'Trees',
       date:'Feb 7, 2024',
-      amount:'Kshs.3000',
+      Total:'3000',
       units:1,
-      total:'Kshs.3000',
-      // delete:<Button/>
+      total:'3000',
     },
     {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
-    },
+    item: 'kenya Defence Forces',
+    category: 'Trees',
+    date:'Feb 7, 2024',
+    Total:'3000',
+    units:1,
+    total:'3000',
+  },
+  {
+  item: 'kenya Defence Forces',
+  category: 'Trees',
+  date:'Feb 7, 2024',
+  Total:'3000',
+  units:1,
+  total:'3000',
+},
+{
+item: 'kenya Defence Forces',
+category: 'Trees',
+date:'Feb 7, 2024',
+Total:'3000',
+units:1,
+total:'3000',
+},
+{
+item: 'kenya Defence Forces',
+category: 'Trees',
+date:'Feb 7, 2024',
+Total:'3000',
+units:1,
+total:'3000',
+},
+{
+item: 'kenya Defence Forces',
+category: 'Trees',
+date:'Feb 7, 2024',
+Total:'3000',
+units:1,
+total:'3000',
+},
     {
-      item: 'kiro february',
-      category: 'KIRO',
+      item: 'kenya Defence Forces',
+      category: 'Trees',
       date:'Feb 7, 2024',
-      amount:'Kshs.3000',
+      Total:'3000',
       units:1,
-      total:'Kshs.3000'
+      total:'3000',
     },
     {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
-    },
-    {
-      item: 'kiro february',
-      category: 'KIRO',
+      item: 'kenya Defence Forces',
+      category: 'Trees',
       date:'Feb 7, 2024',
-      amount:'Kshs.3000',
+      Total:'3000',
       units:1,
-      total:'Kshs.3000'
+      total:'3000',
     },
     {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
-    },
-    {
-      item: 'kiro february',
-      category: 'KIRO',
+      item: 'kenya Defence Forces',
+      category: 'Trees',
       date:'Feb 7, 2024',
-      amount:'Kshs.3000',
+      Total:'3000',
       units:1,
-      total:'Kshs.3000'
-    },
-    {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
-    },
-    {
-      item: 'kiro february',
-      category: 'KIRO',
-      date:'Feb 7, 2024',
-      amount:'Kshs.3000',
-      units:1,
-      total:'Kshs.3000'
-    },
-    {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
+      total:'3000',
     },
     {
       item: 'kiro february',
-      category: 'KIRO',
+      organization: 'kenya Defence Forces',
+      category: 'Trees',
       date:'Feb 7, 2024',
-      amount:'Kshs.3000',
+      Total:'3000',
       units:1,
-      total:'Kshs.3000'
+      total:'3000',
     },
     {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
-    },
-    {
-      item: 'kiro february',
-      category: 'KIRO',
+     item: 'kenya Defence Forces',
+      category: 'Trees',
       date:'Feb 7, 2024',
-      amount:'Kshs.3000',
+      Total:'3000',
       units:1,
-      total:'Kshs.3000'
+      total:'3000',
     },
     {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
-    },
-    {
-      item: 'kiro february',
-      category: 'KIRO',
+      item: 'kenya Defence Forces',
+      category: 'Trees',
       date:'Feb 7, 2024',
-      amount:'Kshs.3000',
+      Total:'3000',
       units:1,
-      total:'Kshs.3000'
+      total:'3000',
     },
     {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
-    },
-    {
-      item: 'kiro february',
-      category: 'KIRO',
+      item: 'kenya Defence Forces',
+      category: 'Trees',
       date:'Feb 7, 2024',
-      amount:'Kshs.3000',
+      Total:'3000',
       units:1,
-      total:'Kshs.3000'
+      total:'3000',
     },
     {
-      item: 'Suit 5',
-      category: 'SIUTES',
-      date:'Jan 1, 2024',
-      amount:'Kshs.30000',
-      units:2,
-      total:'Kshs.30000'
-    }
+      item: 'kenya Defence Forces',
+      category: 'Trees',
+      date:'Feb 7, 2024',
+      Total:'3000',
+      units:1,
+      total:'3000',
+    },
+    {
+      item: 'kenya Defence Forces',
+      category: 'Trees',
+      date:'Feb 7, 2024',
+      Total:'3000',
+      units:1,
+      total:'3000',
+    },
+    {
+      item: 'kenya Defence Forces',
+      category: 'Trees',
+      date:'Feb 7, 2024',
+      Total:'3000',
+      units:1,
+      total:'3000',
+    },
+    {
+      item: 'kenya Defence Forces',
+      category: 'Trees',
+      date:'Feb 7, 2024',
+      Total:'3000',
+      units:1,
+      total:'3000',
+    },
+    {
+   item: 'kenya Defence Forces',
+      category: 'Trees',
+      date:'Feb 7, 2024',
+      Total:'3000',
+      units:1,
+      total:'3000',
+    },
+    {
+      item: 'kenya Defence Forces',
+      category: 'Trees',
+      date:'Feb 7, 2024',
+      Total:'3000',
+      units:1,
+      total:'3000',
+    },
   ];
   
   return (
@@ -193,7 +201,7 @@ const Table = () => {
           <div className="sort">
             <select name="" id="" style={{ padding: '0.5rem', border: '1px solid #000', borderRadius: '0.375rem',  }}>
               <option value="">Group by</option>
-              <option value="">Currentcy</option>
+              <option value="">Trees</option>
               <option value="">Created at</option>
             </select>
           </div>
