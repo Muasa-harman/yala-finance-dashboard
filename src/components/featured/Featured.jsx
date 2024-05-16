@@ -10,7 +10,7 @@ const Featured = () => {
   return (
     <div className="featured">
       <div className="top">
-        <h1 className="title">Total Revenue</h1>
+        <h1 className="title">Total Trees</h1>
         <MoreVertIcon fontSize="small" />
       </div>
       <div className="bottom">
@@ -24,7 +24,7 @@ const Featured = () => {
         <Company company={'Mombasa'} total={200000}/>
         <Company company={'Kisumu'} total={200000}/>
         <Company company={'Kajiado'} total={200000}/>
-        <Company company={'Machacos'} total={200000}/>
+        <Company company={'Machakos'} total={200000}/>
         <Company company={'Makueni'} total={200000}/>
         <Company company={'Kericho'} total={200000}/>
         <Company company={'Trans-Nzoia'} total={200000}/>
