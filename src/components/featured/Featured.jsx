@@ -18,7 +18,7 @@ const Featured = () => {
          <div className='title'>
         <h4 className='lead'>County by Rank</h4>
         <span style={{color:"green",marginTop:"15px" }}>View More</span>
-        <div className="">
+        <div className="count">
         <Company company={'Embu'} total={200000}/>
         <Company company={'Nairobi'} total={200000}/>
         <Company company={'Mombasa'} total={200000}/>
